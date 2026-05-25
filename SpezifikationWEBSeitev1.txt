@@ -1,0 +1,55 @@
+ich möchte eine WEB-Site mit den folgenden WEB-Seiten:
+
+index.html
+- hat ein Hintergrundbild (Bilder/Zelglitrotte2.jpeg)
+- einen responsiv container für das Heading mit Titel "Kulturkommission Hettlingen", darunter einen beschreibenden Text: "Die Kulturkommission Hettlingen bringt Kultur mitten ins Dorfleben. Mit Konzerten, Theateraufführungen, Ausstellungen und kreativen Workshops schaffen wir Begegnungen, die inspirieren, verbinden und Freude schenken. Wir möchten Kultur für alle zugänglich machen – lebendig, vielfältig und nah an den Menschen in Hettlingen."
+- auf der rechten Seite neben dem Header soll das Logo erscheinen (Bilder/LogoKulturHettlingen.png), gleich hoch wie der container
+- darunter drei Links auf die WEB-Seiten:  Organisation, Galerie
+- darunter ein responsive container mit der Überschrift "Agenda" und einer Tabelle mit den vier Kolonnen "Datum", "Veranstaltung", "Ort", "" (die vierte Kolonne für ein Thumbnail Bild)
+- fülle die Tabelle mit den folgenden Einträgen:
+|28.5.2026|Theaterworkshop für Erwachsene|Singsaal der Primarschule Hettlingen|Bilder/Theater-WS1.PNG|
+|5.9.2026|Theater Kanton Zürich "Der Menschenfeind"- Freilichttheater|Schulhaus Halden|Bilder/Menschenfeind1.PNG|
+|13.9.2026|Constanze Constanze|Zelglitrotte|Bilder/Constanze1.PNG|
+|28.10.2026|Figurentheater Shirai - "Kalif Storch"|Zelglitrotte|KalifStorch1.PNG|
+|29.1.2026|A Capella Ensemble Pagare mit "Best of best of"|Zelglitrotte|Pagare1.jpg|
+- für jede Zeile in der Tabelle gibt es eine Veranstaltungsseite
+- der Eintrag "Veranstaltung" in der Tabelle sollte ein Link auf diese Veranstaltungsseite sein
+
+
+organisation.html
+- Hintergrundbild (Bilder/Sitzungszimmer.PNG)
+- Eine header container mit Titel "Organisation"
+- darunter links auf die Startseite und die "Galerie" wie auf der Startseite
+- dann ein container Mit dem Text: 
+"Seit 1. Januar 2019 ist die Gemeinde Hettlingen Mitglied beim Verein <a href="https://prokultur-zuerich.ch/">Pro Kultur Kanton Zürich</a> 
+
+Pro Kultur Kanton Zürich setzt sich für den Erhalt und die Weiterentwicklung der Kulturförderung ein. Wir schaffen eine gemeinsame Stimme für Stadt und Land, für die Breiten- und die Hochkultur."
+    
+- dann eine Tabelle mit den Kolonnen "Bereich", "zuständig", "email"
+- fülle die Tabelle mit folgenden Einträgen:
+|Präsident|Christian Ziegler|christian.ziegler@hettlingen.ch|
+|Aktuarin|Brigitte Bhend|tbhend@gmx.ch|
+|Ausstellungen|Nadja Naef| |
+|Kindertheater|Lilly Zingg|lilli.zingg@gmail.com|
+|Theater und Musik|Valeria Enz-Dudas|enzdudas@gmail.com|
+|Workshops (Kinder, Jugend, Erwachsene)|Marco Recconico|
+
+galerie.html
+- Titel "Galerie*
+- jeweils pro vergangene Veranstaltung eine Zeile mit "Datum" und "Veranstaltungsname"
+- darunter container mit 3 Bildern (Höhe ca. 2.5 cm)
+
+veranstaltung-nnn.html
+- nnn läuft von 001
+- eine Seite pro Veranstaltung in der Tabelle in index.html
+- Titel der Veranstaltung
+- Ort
+- Datum
+- Kontakt: Name, email 
+- Textblock für die Beschreibung der Veranstaltung
+
+Allgemein
+- die responsive containers auf den Seiten sollen 20% transparent sein, dass jeweils das Hintergrundbild noch durchscheint
+- der Design soll elegant unaufdringlich sein mit hellen pastellfarben
+
+

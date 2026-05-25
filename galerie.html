@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kulturkommission Hettlingen - Galerie</title>
+  <meta name="description" content="Impressionen vergangener Veranstaltungen der Kulturkommission Hettlingen. Bildergalerien und Rückblicke auf unser Dorfleben.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="galerie-bg">
+
+  <div class="container">
+    
+    <!-- HEADER WRAPPER -->
+    <header class="glass-panel" id="gallery-header">
+      <h1 style="font-size: 2.8rem; font-weight: 700; background: linear-gradient(135deg, var(--text-dark) 30%, var(--primary-accent) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Galerie</h1>
+    </header>
+
+    <!-- NAVIGATION PANEL -->
+    <nav class="glass-panel nav-panel" id="navigation-panel">
+      <a href="index.html" class="nav-link" id="nav-home">Startseite</a>
+      <a href="organisation.html" class="nav-link" id="nav-org">Organisation</a>
+      <a href="galerie.html" class="nav-link active" id="nav-gallery">Galerie</a>
+    </nav>
+
+    <!-- GALLERY SECTION -->
+    <main class="glass-panel" id="gallery-panel">
+      <h2 class="section-title">Impressionen vergangener Veranstaltungen</h2>
+
+      <!-- PAST EVENT 1: PAGARE -->
+      <div class="gallery-event-section" id="past-event-pagare">
+        <div class="gallery-event-header">
+          <span class="gallery-event-title">A Capella Ensemble Pagare mit "Best of best of"</span>
+          <span class="gallery-event-date">29. Januar 2026</span>
+        </div>
+        <div class="gallery-images-container">
+          <a href="#img-pagare1" class="gallery-img-wrapper" id="pagare1-wrapper">
+            <img src="Bilder/Pagare.jpg" alt="A Capella Ensemble Pagare live" class="gallery-img">
+          </a>
+          <a href="#img-pagare2" class="gallery-img-wrapper" id="pagare2-wrapper">
+            <img src="Bilder/ZelglitrotteInnen1.jpeg" alt="Zelglitrotte Publikum Pagare" class="gallery-img">
+          </a>
+          <a href="#img-pagare3" class="gallery-img-wrapper" id="pagare3-wrapper">
+            <img src="Bilder/ZelglitrotteInnen2.jpeg" alt="Zelglitrotte Bühne Pagare" class="gallery-img">
+          </a>
+        </div>
+      </div>
+
+      <!-- PAST EVENT 2: KUNSTAUSSTELLUNG -->
+      <div class="gallery-event-section" id="past-event-art">
+        <div class="gallery-event-header">
+          <span class="gallery-event-title">Hettlinger Kunstausstellung</span>
+          <span class="gallery-event-date">15. November 2025</span>
+        </div>
+        <div class="gallery-images-container">
+          <a href="#img-art1" class="gallery-img-wrapper" id="art1-wrapper">
+            <img src="Bilder/Zelglitrotte.jpg" alt="Ausstellungsraum Zelglitrotte" class="gallery-img">
+          </a>
+          <a href="#img-art2" class="gallery-img-wrapper" id="art2-wrapper">
+            <img src="Bilder/Zelglitrotte1.jpeg" alt="Exponate" class="gallery-img">
+          </a>
+          <a href="#img-art3" class="gallery-img-wrapper" id="art3-wrapper">
+            <img src="Bilder/ZelglitrotteInnen.jpeg" alt="Besuchergespräche" class="gallery-img">
+          </a>
+        </div>
+      </div>
+
+      <!-- PAST EVENT 3: KINDERTHEATER -->
+      <div class="gallery-event-section" id="past-event-kidstheater">
+        <div class="gallery-event-header">
+          <span class="gallery-event-title">Kindertheater "Märchenzauber"</span>
+          <span class="gallery-event-date">20. September 2025</span>
+        </div>
+        <div class="gallery-images-container">
+          <a href="#img-kids1" class="gallery-img-wrapper" id="kids1-wrapper">
+            <img src="Bilder/KalifStorch.PNG" alt="Figurenspiel Kalif Storch" class="gallery-img">
+          </a>
+          <a href="#img-kids2" class="gallery-img-wrapper" id="kids2-wrapper">
+            <img src="Bilder/Theater-WS.PNG" alt="Kinder-Workshop-Szene" class="gallery-img">
+          </a>
+          <a href="#img-kids3" class="gallery-img-wrapper" id="kids3-wrapper">
+            <img src="Bilder/Menschenfeind.PNG" alt="Bühnenbild Theater" class="gallery-img">
+          </a>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- FOOTER PANEL -->
+    <footer class="glass-panel footer-panel" id="footer-section">
+      <p>&copy; 2026 Kulturkommission Hettlingen. Alle Rechte vorbehalten. | Design &amp; Umsetzung im Dorfgeist.</p>
+    </footer>
+
+  </div>
+
+  <!-- --- LIGHTBOX POPUPS (Pure CSS targets) --- -->
+  
+  <!-- Pagare images -->
+  <div id="img-pagare1" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-pagare" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/Pagare.jpg" alt="A Capella Ensemble Pagare live" class="lightbox-img">
+    </div>
+  </div>
+  <div id="img-pagare2" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-pagare" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/ZelglitrotteInnen1.jpeg" alt="Zelglitrotte Publikum Pagare" class="lightbox-img">
+    </div>
+  </div>
+  <div id="img-pagare3" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-pagare" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/ZelglitrotteInnen2.jpeg" alt="Zelglitrotte Bühne Pagare" class="lightbox-img">
+    </div>
+  </div>
+
+  <!-- Art images -->
+  <div id="img-art1" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-art" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/Zelglitrotte.jpg" alt="Ausstellungsraum Zelglitrotte" class="lightbox-img">
+    </div>
+  </div>
+  <div id="img-art2" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-art" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/Zelglitrotte1.jpeg" alt="Exponate" class="lightbox-img">
+    </div>
+  </div>
+  <div id="img-art3" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-art" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/ZelglitrotteInnen.jpeg" alt="Besuchergespräche" class="lightbox-img">
+    </div>
+  </div>
+
+  <!-- Kids images -->
+  <div id="img-kids1" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-kidstheater" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/KalifStorch.PNG" alt="Figurenspiel Kalif Storch" class="lightbox-img">
+    </div>
+  </div>
+  <div id="img-kids2" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-kidstheater" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/Theater-WS.PNG" alt="Kinder-Workshop-Szene" class="lightbox-img">
+    </div>
+  </div>
+  <div id="img-kids3" class="lightbox">
+    <div class="lightbox-content">
+      <a href="#past-event-kidstheater" class="lightbox-close" aria-label="Schliessen">&times;</a>
+      <img src="Bilder/Menschenfeind.PNG" alt="Bühnenbild Theater" class="lightbox-img">
+    </div>
+  </div>
+
+</body>
+</html>
