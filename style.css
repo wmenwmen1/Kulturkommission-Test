@@ -673,6 +673,26 @@ body.event-bg {
     font-size: 2.1rem;
   }
   
+  .event-info-main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .event-description-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    text-align: left; /* Better readability on mobile than justified */
+  }
+  
+  .event-metadata-box {
+    padding: 1rem;
+    gap: 0.8rem;
+  }
+  
+  .metadata-item {
+    font-size: 1rem;
+  }
+  
   .nav-panel {
     flex-direction: column;
     align-items: center;
@@ -712,21 +732,33 @@ body.event-bg {
   
   .custom-table td {
     border: none !important;
-    padding: 0.8rem 1rem;
-    text-align: right;
-    position: relative;
+    padding: 0.9rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
     font-size: 0.95rem;
+    text-align: right;
   }
   
   .custom-table td::before {
     content: attr(data-label);
-    position: absolute;
-    left: 1rem;
     font-weight: 600;
     color: var(--text-medium);
     text-transform: uppercase;
     font-size: 0.75rem;
     letter-spacing: 0.5px;
+    flex-shrink: 0;
+    text-align: left;
+  }
+  
+  .custom-table td > a,
+  .custom-table td > span,
+  .custom-table td > div {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: right;
+    max-width: 65%; /* Restricts width of values so they never clash with labels */
   }
   
   .custom-table td:first-child {
@@ -739,6 +771,6 @@ body.event-bg {
   }
   
   .thumbnail-container {
-    margin-left: auto;
+    margin-left: 0;
   }
 }
