@@ -691,6 +691,19 @@ body.event-bg {
   
   .metadata-item {
     font-size: 1rem;
+    flex-wrap: wrap; /* Allows label and value to wrap on very small screens */
+    align-items: flex-start; /* Aligns items to the top when wrapped */
+  }
+  
+  .metadata-value {
+    word-break: break-all; /* Prevents overflow from long names/emails */
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+
+  .email-link {
+    word-break: break-all;
+    overflow-wrap: break-word;
   }
   
   .nav-panel {
